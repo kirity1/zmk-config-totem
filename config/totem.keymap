@@ -39,14 +39,14 @@
             bindings = <&kp ESC>;
         };
 
-        alt+tab {
-            bindings = <&kp LA(TAB)>;
+        tab {
+            bindings = <&kp TAB>;
             key-positions = <1 2>;
         };
 
-        ctrl+tab {
-            bindings = <&kp LC(TAB)>;
-            key-positions = <11 12>;
+        altfsd {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <32 35>;
         };
     };
 

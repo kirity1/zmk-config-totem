@@ -115,10 +115,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp LEFT_ALT  &kp DOT         &kp UP_ARROW    &kp N0           &kp LBRC    &kp RBRC  &kp N7        &kp N8        &kp N9        &kp EQUAL
-            &kp LEFT_WIN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LBKT    &kp RBKT  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SINGLE_QUOTE
-&kp ESCAPE  &kp HOME      &kp BACKSLASH   &kp GRAVE       &kp MINUS        &kp LPAR    &kp RPAR  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp CAPS          &mo 2
-                                          &trans          &trans           &trans      &kp TAB   &trans        &trans
+            &kp LEFT_ALT  &kp N7        &kp N8        &kp N9        &kp LBRC    &kp RBRC  &kp N0          &kp UP_ARROW    &kp DOT          &kp EQUAL
+            &kp LEFT_WIN  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LBKT    &kp RBKT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp SINGLE_QUOTE
+&kp ESCAPE  &kp HOME      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LPAR    &kp RPAR  &kp MINUS       &kp GRAVE       &kp BACKSLASH    &kp CAPS          &mo 2
+                                        &trans        &trans        &trans      &kp TAB   &trans          &trans
             >;
         };
 

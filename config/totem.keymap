@@ -46,7 +46,12 @@
 
         altfsd {
             bindings = <&kp LEFT_ALT>;
-            key-positions = <32 36>;
+            key-positions = <6 7>;
+        };
+
+        ralt {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <11 12>;
         };
     };
 

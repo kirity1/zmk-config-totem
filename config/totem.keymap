@@ -37,21 +37,37 @@
             timeout-ms = <50>;
             key-positions = <10 11>;
             bindings = <&kp ESC>;
+            require-prior-idle-ms = <100>;
         };
 
         tab {
             bindings = <&kp TAB>;
             key-positions = <11 12>;
+            require-prior-idle-ms = <100>;
         };
 
         altfsd {
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <17 16>;
+            require-prior-idle-ms = <100>;
         };
 
         ralt {
             bindings = <&kp RIGHT_ALT>;
             key-positions = <12 13>;
+            require-prior-idle-ms = <100>;
+        };
+
+        backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <17 18>;
+            require-prior-idle-ms = <100>;
+        };
+
+        alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <33 13>;
+            require-prior-idle-ms = <100>;
         };
     };
 
@@ -94,10 +110,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-               &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y          &kp U      &kp I       &kp O    &kp P
-               &kp A  &kp S  &kp D         &kp F  &kp G        &kp H          &kp J      &kp K       &kp L    &kp SEMICOLON
-&kp RIGHT_ALT  &kp Z  &kp X  &kp C         &kp V  &kp B        &kp N          &kp M      &kp COMMA   &kp DOT  &kp FSLH       &mo 1
-                             &kp LEFT_ALT  &mo 1  &kp SPACE    &kp BACKSPACE  &kp LSHFT  &kp RETURN
+               &kp Q  &kp W  &kp E          &kp R  &kp T        &kp Y       &kp U      &kp I        &kp O    &kp P
+               &kp A  &kp S  &kp D          &kp F  &kp G        &kp H       &kp J      &kp K        &kp L    &kp SEMICOLON
+&kp RIGHT_ALT  &kp Z  &kp X  &kp C          &kp V  &kp B        &kp N       &kp M      &kp COMMA    &kp DOT  &kp FSLH       &mo 1
+                             &kp PAGE_DOWN  &mo 1  &kp SPACE    &kp RETURN  &kp LSHFT  &kp PAGE_UP
             >;
         };
 
@@ -120,10 +136,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-            &kp MINUS      &kp N7        &kp N8        &kp N9        &kp LBRC    &kp RBRC  &kp N0          &kp UP_ARROW    &kp DOT          &kp EQUAL
-            &kp BACKSLASH  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LBKT    &kp RBKT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp SINGLE_QUOTE
-&kp ESCAPE  &kp GRAVE      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LPAR    &kp RPAR  &kp PAGE_UP     &kp PAGE_DOWN   &kp HOME         &kp CAPS          &mo 2
-                                         &trans        &trans        &trans      &trans    &trans          &trans
+               &kp MINUS  &kp N7        &kp N8        &kp N9        &kp LBRC    &kp RBRC  &kp N0          &kp UP_ARROW    &kp DOT          &kp EQUAL
+               &kp N0     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LBKT    &kp RBKT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp SINGLE_QUOTE
+&sk BACKSLASH  &kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LPAR    &kp RPAR  &kp PAGE_UP     &kp PAGE_DOWN   &kp HOME         &kp CAPS          &mo 2
+                                        &trans        &trans        &trans      &trans    &trans          &trans
             >;
         };
 

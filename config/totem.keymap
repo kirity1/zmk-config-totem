@@ -48,7 +48,7 @@
 
         altfsd {
             bindings = <&kp LEFT_CONTROL>;
-            key-positions = <17 16>;
+            key-positions = <17 18>;
             require-prior-idle-ms = <100>;
         };
 
@@ -60,8 +60,13 @@
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <17 18>;
+            key-positions = <17 16>;
             require-prior-idle-ms = <100>;
+        };
+
+        alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <18 19>;
         };
     };
 

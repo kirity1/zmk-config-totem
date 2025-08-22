@@ -62,6 +62,7 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <17 16>;
             require-prior-idle-ms = <100>;
+            slow-release;
         };
 
         alt {

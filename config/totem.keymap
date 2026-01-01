@@ -35,7 +35,7 @@
 
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <28 29>;
+            key-positions = <28 27>;
             bindings = <&kp RIGHT_ALT>;
             require-prior-idle-ms = <100>;
         };
@@ -67,12 +67,12 @@
 
         alt {
             bindings = <&kp LEFT_CONTROL>;
-            key-positions = <28 27>;
+            key-positions = <28 29>;
         };
 
         space {
             bindings = <&kp ESCAPE>;
-            key-positions = <23 24>;
+            key-positions = <23 22>;
         };
     };
 
